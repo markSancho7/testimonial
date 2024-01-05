@@ -1,11 +1,12 @@
-const cards = [
+export const cards = [
 	{
 		img: './public/images/image-jonathan.jpg',
 		cardName: 'Jonathan Walters',
 		cardVerified: 'Verified Graduate',
 		cardOpinon: 'The team was very supportive and kept me motivated',
 		cardDescription:
-			'“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big company. This was one of the best investments I’ve made in myself. “'
+			'“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big company. This was one of the best investments I’ve made in myself. “',
+		$backgroundColor: 'red'
 	},
 	{
 		img: './public/images/image-jeanette.jpg',
