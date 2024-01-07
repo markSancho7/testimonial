@@ -1,6 +1,8 @@
+import { v4 } from 'uuid';
+
 export const cards = [
 	{
-		id: '0',
+		id: v4(),
 		img: './public/images/image-daniel.jpg',
 		cardName: 'Daniel Clifford',
 		cardVerified: 'Verified Graduate',
@@ -13,11 +15,11 @@ export const cards = [
 		$colorVerified: 'white',
 		$colorOpinion: 'white',
 		$colorDescription: 'white',
-		$gridColumn: '1/2',
+		$gridColumn: '1/3',
 		$gridRow: '1/2'
 	},
 	{
-		id: '1',
+		id: v4(),
 		img: './public/images/image-jonathan.jpg',
 		cardName: 'Jonathan Walters',
 		cardVerified: 'Verified Graduate',
@@ -29,11 +31,11 @@ export const cards = [
 		$colorVerified: 'white',
 		$colorOpinion: 'white',
 		$colorDescription: 'white',
-		$gridColumn: '2/3',
-		$gridRow: '0/2'
+		$gridColumn: '3/4',
+		$gridRow: '1/2'
 	},
 	{
-		id: '2',
+		id: v4(),
 		img: './public/images/image-jeanette.jpg',
 		cardName: 'Jeanette Harmon',
 		cardVerified: 'Verified Graduate',
@@ -44,10 +46,12 @@ export const cards = [
 		$backgroundColor: '#FFF',
 		$colorVerified: 'black',
 		$colorOpinion: 'black',
-		$colorDescription: 'black'
+		$colorDescription: 'black',
+		$gridColumn: '1/2',
+		$gridRow: '2/3'
 	},
 	{
-		id: '3',
+		id: v4(),
 		img: './public/images/image-patrick.jpg',
 		cardName: 'Patrick Abrams',
 		cardVerified: 'Verified Graduate',
@@ -59,10 +63,12 @@ export const cards = [
 		$backgroundColor: '#19202D',
 		$colorVerified: 'white',
 		$colorOpinion: 'white',
-		$colorDescription: 'white'
+		$colorDescription: 'white',
+		$gridColumn: '2/4',
+		$gridRow: '2/2'
 	},
 	{
-		id: '4',
+		id: v4(),
 		img: './public/images/image-kira.jpg',
 		cardName: 'Kira Whittle',
 		cardVerified: 'Verified Graduate',
@@ -73,6 +79,8 @@ export const cards = [
 		$backgroundColor: '#FFF',
 		$colorVerified: 'black',
 		$colorOpinion: 'black',
-		$colorDescription: 'black'
+		$colorDescription: 'black',
+		$gridColumn: '4/5',
+		$gridRow: '1/3'
 	}
 ];

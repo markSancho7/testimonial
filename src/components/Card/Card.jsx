@@ -16,7 +16,7 @@ const Card = props => {
 			$backgroundColor={props.$backgroundColor}
 		>
 			<StyledCardPictureAndName>
-				<StyledImg src={props.link} alt='' />
+				<StyledImg src={props.img} alt='' />
 				<div>
 					<StyledCardName $colorName={props.$colorName}>
 						{props.cardName}

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const StyledGlobalAttributes = styled.div`
+	font-family: 'Barlow Semi Condensed', sans-serif;
 	box-sizing: border-box;
 	background-color: ${props => props.$backgroundColor};
 	padding: 30px;
@@ -30,6 +31,7 @@ const StyledCardVerified = styled.h4`
 	color: ${props => props.$colorVerified};
 	opacity: 0.4;
 	font-weight: 50;
+	font-size: 12px;
 `;
 const StyledCardOpinion = styled.p`
 	color: ${props => props.$colorOpinion};
